@@ -1,0 +1,48 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 2/11/2025$ 3:42 AM$
+ * Project: -My-portfolio$
+ * --------------------------------------------
+ **/
+
+body{
+    background: rgb(0,24,32);
+    background: linear-gradient(90deg, rgba(0,24,32,1) 0%, rgba(0,0,0,1) 50%, rgba(0,24,32,1) 100%);
+}
+
+*{
+    color: white;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+}
+
+body>nav>button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    text-align-all: center;
+}
+
+body>nav>button{
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    transition: 1.15ms;
+}
+
+body>nav>button:hover{
+    opacity: 0.8;
+}
+
+body>nav>button:active{
+    opacity: 0.6;
+}
+
+#hero{
+    display: flex;
+}
